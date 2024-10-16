@@ -1,0 +1,44 @@
+/* Card styles */
+.custom-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button styles */
+  .custom-btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Card image */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Animation for fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .custom-card {
+    animation: fadeIn 0.5s ease-in;
+  }
+  

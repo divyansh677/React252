@@ -1,0 +1,16 @@
+.main{
+background-color: black;
+height: 4rem;
+display:flex;
+justify-content: space-between;
+
+}
+
+
+.navbar{
+
+    display:flex;
+    list-style-type:none;
+  
+
+}
